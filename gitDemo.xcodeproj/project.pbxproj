@@ -16,6 +16,7 @@
 		0E6C5AE5208CD9E0001BFD78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C5AE4208CD9E0001BFD78 /* main.m */; };
 		0E6C5AEF208CD9E0001BFD78 /* gitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C5AEE208CD9E0001BFD78 /* gitDemoTests.m */; };
 		0E6C5AFA208CD9E0001BFD78 /* gitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C5AF9208CD9E0001BFD78 /* gitDemoUITests.m */; };
+		0E6C5B09208D0A71001BFD78 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C5B08208D0A71001BFD78 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0E6C5AF5208CD9E0001BFD78 /* gitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6C5AF9208CD9E0001BFD78 /* gitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitDemoUITests.m; sourceTree = "<group>"; };
 		0E6C5AFB208CD9E0001BFD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6C5B07208D0A71001BFD78 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0E6C5B08208D0A71001BFD78 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				0E6C5AE3208CD9E0001BFD78 /* Info.plist */,
 				0E6C5AE4208CD9E0001BFD78 /* main.m */,
 				0E6C5ADB208CD9E0001BFD78 /* gitDemo.xcdatamodeld */,
+				0E6C5B07208D0A71001BFD78 /* SecondViewController.h */,
+				0E6C5B08208D0A71001BFD78 /* SecondViewController.m */,
 			);
 			path = gitDemo;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6C5B09208D0A71001BFD78 /* SecondViewController.m in Sources */,
 				0E6C5ADD208CD9E0001BFD78 /* gitDemo.xcdatamodeld in Sources */,
 				0E6C5AD7208CD9E0001BFD78 /* ViewController.m in Sources */,
 				0E6C5AE5208CD9E0001BFD78 /* main.m in Sources */,
